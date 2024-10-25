@@ -35,7 +35,7 @@ def load():
 def get_nr_product(j: dict):
 #return the nr of product
 #@par1 j: dict; dictionary with all product
-#@return :tuple: int, dict
+#@return : int
 	temp = 0
 	for item in j:
 		if j[item]["amount"] != 0:
